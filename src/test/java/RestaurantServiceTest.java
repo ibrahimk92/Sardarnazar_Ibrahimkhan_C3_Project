@@ -140,6 +140,7 @@ class RestaurantServiceTest {
         assertEquals(initalTotalCost + 50 + 120, service.getTotalCost());
     }
 
+    
     @Test
     public void if_no_item_is_selected_then_the_total_cost_should_be_zero() {
 
