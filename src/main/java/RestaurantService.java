@@ -37,6 +37,7 @@ public class RestaurantService {
         return restaurants;
     }
 
+    
     // For part 3
     public void addItemToUserSelectedItemList(Item itemName) {
         this.userItems.add(itemName);
